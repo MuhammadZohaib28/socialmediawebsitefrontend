@@ -1,6 +1,6 @@
 import React from "react";
 import "./friendListBar.css";
-// import '../src/components/sidebar/sidebar.css';
+
 
 
 const FriendListBar = () => {
