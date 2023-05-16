@@ -7,7 +7,7 @@ const Topbar = () => {
     <div className="topbarContainer">
       <div className="topbarLeft">
         <img
-          src="../src/assets/logo.png"
+          src="/src/assets/logo.png"
           alt="Zohaib logo image"
           className="logo"
         />
@@ -38,7 +38,7 @@ const Topbar = () => {
             <span className="topbarIconBadge">3</span>
           </div>
         </div>
-        <img src="../src/assets/a.png" alt="" className="topbarImage" />
+        <img src="/src/assets/a.png" alt="" className="topbarImage" />
       </div>
     </div>
   );
