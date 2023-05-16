@@ -1,5 +1,6 @@
 import React from "react";
 import "./friendlistbar.css";
+import friendListImage from "/src/assets/pexals.jpg"
 
 
 
@@ -16,7 +17,7 @@ const FriendListBar = () => {
         <ul className="friendListBarList">
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -25,7 +26,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -34,7 +35,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -43,7 +44,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -52,7 +53,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -61,7 +62,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -70,7 +71,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -79,7 +80,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -88,7 +89,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -97,7 +98,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -106,7 +107,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -115,7 +116,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -123,16 +124,7 @@ const FriendListBar = () => {
           </li>
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
-              alt=""
-              className="friendListBarImg"
-            />
-            <span className="friendListBarName">Ahmed Ali</span>
-          </li>
-
-          <li className="frinedListBarItems">
-            <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -141,7 +133,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -150,7 +142,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -159,7 +151,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -168,7 +160,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -177,7 +169,7 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -186,7 +178,16 @@ const FriendListBar = () => {
 
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
+              alt=""
+              className="friendListBarImg"
+            />
+            <span className="friendListBarName">Ahmed Ali</span>
+          </li>
+
+          <li className="frinedListBarItems">
+            <img
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />
@@ -194,7 +195,7 @@ const FriendListBar = () => {
           </li>
           <li className="frinedListBarItems">
             <img
-              src="../src/assets/pexals.jpg"
+              src={friendListImage}
               alt=""
               className="friendListBarImg"
             />

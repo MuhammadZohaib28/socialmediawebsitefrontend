@@ -1,13 +1,15 @@
 import React from "react";
 import "./topbar.css";
 import { Chat, Home, Notifications, Person, Search } from "@mui/icons-material";
+import logoImage from '/src/assets/logo.png';
+import profileImage from '/src/assets/a.png';
 
 const Topbar = () => {
   return (
     <div className="topbarContainer">
       <div className="topbarLeft">
         <img
-          src="/src/assets/logo.png"
+          src={logoImage}
           alt="Zohaib logo image"
           className="logo"
         />
@@ -38,7 +40,7 @@ const Topbar = () => {
             <span className="topbarIconBadge">3</span>
           </div>
         </div>
-        <img src="/src/assets/a.png" alt="" className="topbarImage" />
+        <img src={profileImage} alt="" className="topbarImage" />
       </div>
     </div>
   );
