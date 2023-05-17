@@ -6,15 +6,18 @@
     /* background: linear-gradient(112.4deg, rgb(169, 28, 115,0.600) 21.6%, rgb(219, 112, 54,0.600) 92.2%); */
     
     border-radius: 1.5rem;
+    /* position: fixed; */
+    
 }
 
 .sidebarWrapper{
     padding: 2rem;
     background: linear-gradient(89.9deg, rgb(208, 246, 255, 0.989) 0.1%, rgb(255, 237, 237, 0.989) 47.9%, rgb(255, 255, 231, 0.989) 100.2%);
     border-radius: 2rem;
-    width: 15rem;
+    width: 13rem;
     margin: 0.5rem auto;
     height: 40rem;
+    /* border: 1px solid red; */
 
 }
 

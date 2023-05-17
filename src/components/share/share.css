@@ -1,0 +1,114 @@
+.shareContainer{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 0.5rem auto;
+    height: 17rem;
+    border-radius: 1rem;
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250, 0.754) 0%, rgb(225, 234, 238, 0.754) 90%);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.shareWrapper{
+    padding: 0.5rem;
+}
+
+.shareTop{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    gap: 2rem;
+}
+
+.shareInput{
+    width: 100%;
+    height: 7rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.7rem;
+    background: linear-gradient(113.5deg, rgb(234, 234, 234, 0.547) 22.3%, rgb(201, 234, 211, 0.547) 56.6%, rgb(255, 180, 189, 0.547) 90.9%);
+    background: radial-gradient(circle at -14.3% -17.5%, rgb(245, 168, 168, 0.459) 4%, rgb(164, 168, 248, 0.459) 100.2%);
+    font-size: 1.1rem;
+    
+}
+
+.shareInput:focus{
+    outline: none;
+    background: linear-gradient(113.5deg, rgb(234, 234, 234) 22.3%, rgb(201, 234, 211) 56.6%, rgb(255, 180, 189) 90.9%);
+    background: radial-gradient(circle at -14.3% -17.5%, rgb(245, 168, 168) 4%, rgb(164, 168, 248) 100.2%);
+}
+
+.shareProfileImage{
+    height: 6rem;
+    border-radius: 5rem;
+    object-fit: cover;
+    /* margin-right: 11rem; */
+    background: linear-gradient(113.5deg, rgb(234, 234, 234) 22.3%, rgb(201, 234, 211) 56.6%, rgb(255, 180, 189) 90.9%);
+}
+
+.shareBottom{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 39vw;
+}
+
+.shareOptions{
+    /* border: 1px solid rebeccapurple; */
+
+    display: flex;
+    align-items: center;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+    /* border: 1px solid red; */
+
+    background: radial-gradient(circle at 10% 20%, rgb(148, 241, 246, 0.278) 0%, rgb(148, 189, 246, 0.278) 100.7%);
+    /* background: radial-gradient(circle at 10% 20%, rgba(234, 249, 249, 0.67) 0.1%, rgba(239, 249, 251, 0.63) 90.1%); */
+    border-radius: 1rem;
+}
+
+.shareOption{
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    /* gap: 3rem; */
+    cursor: pointer;
+    background: linear-gradient(109.6deg, rgb(100, 178, 249, 0.5) 11.2%, rgba(114, 231, 159, 0.5) 91.1%);
+    padding: 0.3rem;
+    border-radius: 0.7rem;
+}
+
+.shareOptionText{
+    background: linear-gradient(89.9deg, rgb(208, 246, 255, 0.458) 0.1%, rgb(255, 237, 237, 0.458) 47.9%, rgb(255, 255, 231, 0.458) 100.2%);
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    font-weight: 540;
+    font-size: 1.1rem;
+}
+
+.shareIcon{
+    font-style: 2rem;
+    margin-right: 1.5rem;
+}
+
+.shareButton{
+    background: linear-gradient(75.2deg, rgb(41, 196, 255, 0.557) -2.5%, rgb(255, 158, 211, 0.557) 55%, rgb(255, 182, 138, 0.557) 102.3%);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 1rem; */
+    /* margin-bottom: 1rem; */
+    margin: 1rem auto;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    width: 75%;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+
+.shareButton:hover{
+    background: linear-gradient(75.2deg, rgb(41, 196, 255, 0.957) -2.5%, rgb(255, 158, 211, 0.957) 55%, rgb(255, 182, 138, 0.957) 102.3%);
+}
