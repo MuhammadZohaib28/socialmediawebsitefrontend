@@ -28,6 +28,39 @@
     background: linear-gradient(113.5deg, rgb(234, 234, 234, 0.547) 22.3%, rgb(201, 234, 211, 0.547) 56.6%, rgb(255, 180, 189, 0.547) 90.9%);
     background: radial-gradient(circle at -14.3% -17.5%, rgb(245, 168, 168, 0.459) 4%, rgb(164, 168, 248, 0.459) 100.2%);
     font-size: 1.1rem;
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        
+      }
+      &::-webkit-scrollbar-track {
+
+        background: radial-gradient(circle at 10% 20%, rgba(6, 0, 255, 0.61) 0%, rgb(191, 0, 255) 100.7%);
+        box-shadow: inset 0 0 15px rgb(255, 255, 255);
+        border-radius: 3rem;
+        /* border-top-right-radius: 21rem; */
+        /* height: 10px; */
+        /* height: 1000px; */
+        overflow: auto;
+        
+
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* background: #888; */
+        background: linear-gradient(109.6deg, rgb(33, 25, 180, 0.757) 11.2%, rgb(253, 29, 29, 0.757) 55.2%, rgb(252, 176, 69, 0.757) 91.1%);
+        border-radius: 3rem;
+        
+        
+        
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(109.6deg, rgb(33, 25, 180) 11.2%, rgb(253, 29, 29) 55.2%, rgb(252, 176, 69) 91.1%);
+
+      }
+
+      resize: none;
     
 }
 
@@ -35,6 +68,39 @@
     outline: none;
     background: linear-gradient(113.5deg, rgb(234, 234, 234) 22.3%, rgb(201, 234, 211) 56.6%, rgb(255, 180, 189) 90.9%);
     background: radial-gradient(circle at -14.3% -17.5%, rgb(245, 168, 168) 4%, rgb(164, 168, 248) 100.2%);
+
+    &::-webkit-scrollbar {
+        width: 10px;
+        
+      }
+      &::-webkit-scrollbar-track {
+
+        background: radial-gradient(circle at 10% 20%, rgba(6, 0, 255, 0.61) 0%, rgb(191, 0, 255) 100.7%);
+        box-shadow: inset 0 0 15px rgb(255, 255, 255);
+        border-radius: 3rem;
+        /* border-top-right-radius: 21rem; */
+        /* height: 10px; */
+        /* height: 1000px; */
+        overflow: auto;
+        
+
+      }
+
+      &::-webkit-scrollbar-thumb {
+        /* background: #888; */
+        background: linear-gradient(109.6deg, rgb(33, 25, 180, 0.757) 11.2%, rgb(253, 29, 29, 0.757) 55.2%, rgb(252, 176, 69, 0.757) 91.1%);
+        border-radius: 3rem;
+        
+        
+        
+      }
+
+      &::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(109.6deg, rgb(33, 25, 180) 11.2%, rgb(253, 29, 29) 55.2%, rgb(252, 176, 69) 91.1%);
+
+      }
+
+    
 }
 
 .shareProfileImage{
